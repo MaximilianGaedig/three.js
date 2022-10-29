@@ -88,7 +88,7 @@ class FileLoader extends Loader {
 		fetch( req )
 			.then( response => {
 
-				if ( response.status === 200 || response.status === 0 ) {
+				if ( response.ok || response.status === 0 ) {
 
 					// Some browsers return HTTP Status 0 when using non-http protocol
 					// e.g. 'file://' or 'data://'. Handle as success.

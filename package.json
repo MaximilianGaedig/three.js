@@ -170,5 +170,8 @@
       "build/three.module.js"
     ],
     "directories": {}
+  },
+  "publishConfig": {
+    "@MaximilianGaedig:registry": "https://npm.pkg.github.com"
   }
 }
